@@ -27,4 +27,6 @@ syscall                          # espera resposta
 
 move $t1, $v0                    # move resposta de v0 para t0
 
+              # Encerra o programa
+li $v0, 10 
 syscall
